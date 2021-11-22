@@ -1,148 +1,150 @@
 import random
+import colorama
+colorama.init()
 
 def Generate_First_Equations():
     First_Number= random.randint(0,99)
     Second_Number= random.randint(0,99)
 
-    Ask_User_Questions= int(input(f"1) Sum of {First_Number} and {Second_Number}: "))
+    Ask_User_Questions= int(input(colorama.Fore.BLUE + f"1) Sum of {First_Number} and {Second_Number}: "))
     Correct_Answer= First_Number + Second_Number
     if  Correct_Answer == Ask_User_Questions:
-        print("Correct, Proceed to next question")
+        print(colorama.Fore.GREEN + "Correct, Proceed to next question")
         return 1
 
     elif Correct_Answer != Ask_User_Questions: 
-        print("Wrong, Proceed to next question")
+        print(colorama.Fore.RED + "Wrong, Proceed to next question")
         return 0
     
 def Generate_Second_Equations():
     First_Number= random.randint(0,99)
     Second_Number= random.randint(0,99)
 
-    Ask_User_Questions= int(input(f"2) Sum of {First_Number} and {Second_Number}: "))
+    Ask_User_Questions= int(input(colorama.Fore.BLUE + f"2) Sum of {First_Number} and {Second_Number}: "))
     Correct_Answer= First_Number + Second_Number
     if  Correct_Answer == Ask_User_Questions:
-        print("Correct, Proceed to next question")
+        print(colorama.Fore.GREEN + "Correct, Proceed to next question")
         return 1
 
     elif Correct_Answer != Ask_User_Questions: 
-        print("Wrong, Proceed to next question")
+        print(colorama.Fore.RED + "Wrong, Proceed to next question")
         return 0
 
 def Generate_Third_Equations():
     First_Number= random.randint(0,99)
     Second_Number= random.randint(0,99)
 
-    Ask_User_Questions= int(input(f"3) Sum of {First_Number} and {Second_Number}: "))
+    Ask_User_Questions= int(input(colorama.Fore.BLUE + f"3) Sum of {First_Number} and {Second_Number}: "))
     Correct_Answer= First_Number + Second_Number
     if  Correct_Answer == Ask_User_Questions:
-        print("Correct, Proceed to next question")
+        print(colorama.Fore.GREEN + "Correct, Proceed to next question")
         return 1
 
     elif Correct_Answer != Ask_User_Questions: 
-        print("Wrong, Proceed to next question")
+        print(colorama.Fore.RED +"Wrong, Proceed to next question")
         return 0
 
 def Generate_Fourth_Equations():
     First_Number= random.randint(0,99)
     Second_Number= random.randint(0,99)
 
-    Ask_User_Questions= int(input(f"4) Sum of {First_Number} and {Second_Number}: "))
+    Ask_User_Questions= int(input(colorama.Fore.BLUE + f"4) Sum of {First_Number} and {Second_Number}: "))
     Correct_Answer= First_Number + Second_Number
     if  Correct_Answer == Ask_User_Questions:
-        print("Correct, Proceed to next question")
+        print(colorama.Fore.GREEN + "Correct, Proceed to next question")
         return 1
 
     elif Correct_Answer != Ask_User_Questions: 
-        print("Wrong, Proceed to next question")
+        print(colorama.Fore.RED + "Wrong, Proceed to next question")
         return 0
 
 def Generate_Fifth_Equations():
     First_Number= random.randint(0,99)
     Second_Number= random.randint(0,99)
 
-    Ask_User_Questions= int(input(f"5) Sum of {First_Number} and {Second_Number}: "))
+    Ask_User_Questions= int(input(colorama.Fore.BLUE + f"5) Sum of {First_Number} and {Second_Number}: "))
     Correct_Answer= First_Number + Second_Number
     if  Correct_Answer == Ask_User_Questions:
-        print("Correct, Proceed to next question")
+        print(colorama.Fore.GREEN + "Correct, Proceed to next question")
         return 1
 
     elif Correct_Answer != Ask_User_Questions: 
-        print("Wrong, Proceed to next question")
+        print(colorama.Fore.RED + "Wrong, Proceed to next question")
         return 0
 
 def Generate_Sixth_Equations():
     First_Number= random.randint(0,99)
     Second_Number= random.randint(0,99)
 
-    Ask_User_Questions= int(input(f"6) Sum of {First_Number} and {Second_Number}: "))
+    Ask_User_Questions= int(input(colorama.Fore.BLUE + f"6) Sum of {First_Number} and {Second_Number}: "))
     Correct_Answer= First_Number + Second_Number
     if  Correct_Answer == Ask_User_Questions:
-        print("Correct, Proceed to next question")
+        print(colorama.Fore.GREEN + "Correct, Proceed to next question")
         return 1
 
     elif Correct_Answer != Ask_User_Questions: 
-        print("Wrong, Proceed to next question")
+        print(colorama.Fore.RED + "Wrong, Proceed to next question")
         return 0
 
 def Generate_Seventh_Equations():
     First_Number= random.randint(0,99)
     Second_Number= random.randint(0,99)
 
-    Ask_User_Questions= int(input(f"7) Sum of {First_Number} and {Second_Number}: "))
+    Ask_User_Questions= int(input(colorama.Fore.BLUE + f"7) Sum of {First_Number} and {Second_Number}: "))
     Correct_Answer= First_Number + Second_Number
     if  Correct_Answer == Ask_User_Questions:
-        print("Correct, Proceed to next question")
+        print(colorama.Fore.GREEN + "Correct, Proceed to next question")
         return 1
 
     elif Correct_Answer != Ask_User_Questions: 
-        print("Wrong, Proceed to next question")
+        print(colorama.Fore.RED + "Wrong, Proceed to next question")
         return 0
 
 def Generate_Eighth_Equations():
     First_Number= random.randint(0,99)
     Second_Number= random.randint(0,99)
 
-    Ask_User_Questions= int(input(f"8) Sum of {First_Number} and {Second_Number}: "))
+    Ask_User_Questions= int(input(colorama.Fore.BLUE + f"8) Sum of {First_Number} and {Second_Number}: "))
     Correct_Answer= First_Number + Second_Number
     if  Correct_Answer == Ask_User_Questions:
-        print("Correct, Proceed to next question")
+        print(colorama.Fore.GREEN + "Correct, Proceed to next question")
         return 1
 
     elif Correct_Answer != Ask_User_Questions: 
-        print("Wrong, Proceed to next question")
+        print(colorama.Fore.RED + "Wrong, Proceed to next question")
         return 0
 
 def Generate_Ninth_Equations():
     First_Number= random.randint(0,99)
     Second_Number= random.randint(0,99)
 
-    Ask_User_Questions= int(input(f"9) Sum of {First_Number} and {Second_Number}: "))
+    Ask_User_Questions= int(input(colorama.Fore.BLUE + f"9) Sum of {First_Number} and {Second_Number}: "))
     Correct_Answer= First_Number + Second_Number
     if  Correct_Answer == Ask_User_Questions:
-        print("Correct, Proceed to next question")
+        print(colorama.Fore.GREEN + "Correct, Proceed to next question")
         return 1
 
     elif Correct_Answer != Ask_User_Questions: 
-        print("Wrong, Proceed to next question")
+        print(colorama.Fore.RED + "Wrong, Proceed to next question")
         return 0
 
 def Generate_Tenth_Equations():
     First_Number= random.randint(0,99)
     Second_Number= random.randint(0,99)
 
-    Ask_User_Questions= int(input(f"10) Sum of {First_Number} and {Second_Number}: "))
+    Ask_User_Questions= int(input(colorama.Fore.BLUE + f"10) Sum of {First_Number} and {Second_Number}: "))
     Correct_Answer= First_Number + Second_Number
     if  Correct_Answer == Ask_User_Questions:
-        print("Correct, Proceed to next question")
+        print(colorama.Fore.GREEN + "Correct")
         return 1
 
     elif Correct_Answer != Ask_User_Questions: 
-        print("Wrong, Proceed to next question")
+        print(colorama.Fore.RED + "Wrong")
         return 0
 
 def User_Final_Score(First, Second, Third, Fourth,Fifth,Sixth,Seventh,Eighth,Ninth,Tenth):
     Total_Score= First + Second+ Third+ Fourth + Fifth + Sixth + Seventh + Eighth + Ninth + Tenth
-    print(f"Your Final Score is {Total_Score}")
+    print(colorama.Fore.YELLOW + f"Your Final Score is {Total_Score}")
 
      
 
